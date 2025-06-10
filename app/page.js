@@ -23,7 +23,7 @@ export default function Home() {
       {/* Hero Image End */}
 
       {/* Service Start */}
-      <div>
+      <div className="container mx-auto px-4 w-full max-w-7xl grid lg:grid-cols-3 mt-32 gap-10 md:grid-cols-2 grid-cols-1">
         <div>
           <i className="ri-money-dollar-circle-fill ri-3x text-slate-700"></i>
           <p className="font-semibold text-2xl/normal mb-2">Memberikan Harga Terbaik</p>
@@ -35,7 +35,7 @@ export default function Home() {
           <p className="text-base/loose">lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed velit augue. Nam ultrices pellentesque nulla sed fringilla. Etiam at pharetra sapien, at vulputate enim. </p>
         </div>
         <div>
-          <i className="ri-money-dollar-circle-fill ri-3x text-slate-700"></i>
+          <i className="ri-star-s-fill ri-3x text-slate-700"></i>
           <p className="font-semibold text-2xl/normal mb-2">Memberikan Harga Terbaik</p>
           <p className="text-base/loose">lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed velit augue. Nam ultrices pellentesque nulla sed fringilla. Etiam at pharetra sapien, at vulputate enim. </p>
         </div>
