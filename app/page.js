@@ -19,7 +19,7 @@ export default function Home() {
 
       {/* Hero Image Start */}
       <div className="max-w-5xl mx-auto relative">
-        <Image src={DataImage.Hero} alt="Hero Image" priority/>
+        <Image src={DataImage.Hero} alt="Hero Image" className="rounded-t-2xl" priority/>
         <HeroInfo />
       </div>
       {/* Hero Image End */}
@@ -50,7 +50,7 @@ export default function Home() {
         <p className="text-base/loose text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed velit augue</p>
         <div>
           <div className="mt-20">
-            <Image src={DataImage.Proyek1} alt="Project Image" />
+            <Image src={DataImage.Proyek1} alt="Project Image" className="rounded-2xl" />
             <h1 className="mt-6 mb-3 text-2xl font-semibold">Project Pertama</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed velit augue.</p>
             <div className="mt-6 mb-3">
