@@ -48,11 +48,44 @@ export default function Home() {
       <div className="container mx-auto px-4 w-full max-w-7xl mt-32">
         <h1 className="text-4xl/normal text-center font-semibold">Project Kami</h1>
         <p className="text-base/loose text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed velit augue</p>
-        <div>
-          <div className="mt-20">
+        
+        <div className="mt-20 grid grid-cols-3 gap-10">
+          <div className="shadow-2xl p-4 rounded-2xl">
             <Image src={DataImage.Proyek1} alt="Project Image" className="rounded-2xl" />
             <h1 className="mt-6 mb-3 text-2xl font-semibold">Project Pertama</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed velit augue.</p>
+            <p className="text-base/loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed velit augue.</p>
+            <div className="mt-6 mb-3">
+              <Link href={"#"} className="bg-slate-700 text-white text-center p-3 rounded-3xl hover:bg-slate-600 cursor-pointer">Lihat Website</Link>
+            </div>
+          </div>
+          <div className="shadow-2xl p-4 rounded-2xl">
+            <Image src={DataImage.Proyek2} alt="Project Image" className="rounded-2xl" />
+            <h1 className="mt-6 mb-3 text-2xl font-semibold">Project Kedua</h1>
+            <p className="text-base/loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed velit augue.</p>
+            <div className="mt-6 mb-3">
+              <Link href={"#"} className="bg-slate-700 text-white text-center p-3 rounded-3xl hover:bg-slate-600 cursor-pointer">Lihat Website</Link>
+            </div>
+          </div>
+          <div className="shadow-2xl p-4 rounded-2xl">
+            <Image src={DataImage.Proyek3} alt="Project Image" className="rounded-2xl" />
+            <h1 className="mt-6 mb-3 text-2xl font-semibold">Project Ketiga</h1>
+            <p className="text-base/loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed velit augue.</p>
+            <div className="mt-6 mb-3">
+              <Link href={"#"} className="bg-slate-700 text-white text-center p-3 rounded-3xl hover:bg-slate-600 cursor-pointer">Lihat Website</Link>
+            </div>
+          </div>
+          <div className="shadow-2xl p-4 rounded-2xl">
+            <Image src={DataImage.Proyek4} alt="Project Image" className="rounded-2xl" />
+            <h1 className="mt-6 mb-3 text-2xl font-semibold">Project Keempat</h1>
+            <p className="text-base/loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed velit augue.</p>
+            <div className="mt-6 mb-3">
+              <Link href={"#"} className="bg-slate-700 text-white text-center p-3 rounded-3xl hover:bg-slate-600 cursor-pointer">Lihat Website</Link>
+            </div>
+          </div>
+          <div className="shadow-2xl p-4 rounded-2xl">
+            <Image src={DataImage.Proyek5} alt="Project Image" className="rounded-2xl" />
+            <h1 className="mt-6 mb-3 text-2xl font-semibold">Project Kelima</h1>
+            <p className="text-base/loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed velit augue.</p>
             <div className="mt-6 mb-3">
               <Link href={"#"} className="bg-slate-700 text-white text-center p-3 rounded-3xl hover:bg-slate-600 cursor-pointer">Lihat Website</Link>
             </div>
