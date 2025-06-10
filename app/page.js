@@ -18,7 +18,7 @@ export default function Home() {
       {/* Title End */}
 
       {/* Hero Image Start */}
-      <div className="max-w-5xl mx-auto relative">
+      <div className="max-w-5xl mx-auto relative shadow-2xl rounded-2xl">
         <Image src={DataImage.Hero} alt="Hero Image" className="rounded-t-2xl" priority/>
         <HeroInfo />
       </div>
@@ -26,17 +26,17 @@ export default function Home() {
 
       {/* Service Start */}
       <div className="container mx-auto px-4 w-full max-w-7xl grid lg:grid-cols-3 mt-32 gap-10 md:grid-cols-2 grid-cols-1">
-        <div>
+        <div className="shadow-2xl p-7 rounded-2xl">
           <i className="ri-money-dollar-circle-fill ri-3x text-slate-700"></i>
           <p className="font-semibold text-2xl/normal mb-2">Memberikan Harga Terbaik</p>
           <p className="text-base/loose">lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed velit augue. Nam ultrices pellentesque nulla sed fringilla. Etiam at pharetra sapien, at vulputate enim. </p>
         </div>
-        <div>
+        <div className="shadow-2xl p-7 rounded-2xl">
           <i className="ri-service-fill ri-3x text-slate-700"></i>
           <p className="font-semibold text-2xl/normal mb-2">Pemeriksaan Secara Berkala</p>
           <p className="text-base/loose">lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed velit augue. Nam ultrices pellentesque nulla sed fringilla. Etiam at pharetra sapien, at vulputate enim. </p>
         </div>
-        <div>
+        <div className="shadow-2xl p-7 rounded-2xl">
           <i className="ri-star-s-fill ri-3x text-slate-700"></i>
           <p className="font-semibold text-2xl/normal mb-2">Fokus Website, Mobile & IoT</p>
           <p className="text-base/loose">lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed velit augue. Nam ultrices pellentesque nulla sed fringilla. Etiam at pharetra sapien, at vulputate enim. </p>
@@ -49,7 +49,7 @@ export default function Home() {
         <h1 className="text-4xl/normal text-center font-semibold">Project Kami</h1>
         <p className="text-base/loose text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed velit augue</p>
         
-        <div className="mt-20 grid grid-cols-3 gap-10">
+        <div className="mt-20 grid lg:grid-cols-3 gap-10 md:grid-cols-2 grid-cols-1">
           <div className="shadow-2xl p-4 rounded-2xl">
             <Image src={DataImage.Proyek1} alt="Project Image" className="rounded-2xl" />
             <h1 className="mt-6 mb-3 text-2xl font-semibold">Project Pertama</h1>
@@ -93,6 +93,31 @@ export default function Home() {
         </div>
       </div>
       {/* Project End */}
+
+      {/* Contact Start */}
+      <div>
+        <h2>Companes.</h2>
+        <div>
+          <Link href={"#"}>Home</Link>
+          <Link href={"#"}>Service</Link>
+          <Link href={"#"}>Project</Link>
+        </div>
+        <div>
+          <Link href={"#"}>
+            <i className="ri-instagram-fill ri-2x"></i>
+          </Link>
+          <Link href={"#"}>
+            <i className="ri-linkedin-fill ri-2x"></i>
+          </Link>
+          <Link href={"#"}>
+            <i className="ri-github-fill ri-2x"></i>
+          </Link>
+          <Link href={"#"}>
+            <i className="ri-facebook-fill ri-2x"></i>
+          </Link>
+        </div>
+      </div>
+      {/* Contact End */}
     </>
     
   );
