@@ -1,6 +1,7 @@
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 // module remixicon
 import 'remixicon/fonts/remixicon.css'
@@ -27,7 +28,7 @@ export default function RootLayout({ children }) {
           
             <Navbar />
             <div className="container mx-auto px-4">{children}</div>
-         
+            <Footer />
         
       </body>
     </html>
