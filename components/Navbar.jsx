@@ -18,7 +18,7 @@ const Navbar = () => {
             <div className="logo">
                 <h1 className="text-3xl font-bold">Companes.</h1>
             </div>
-            <ul className={`menu flex items-center gap-12 md:static absolute ${active ? "top-24 opacity-1" : "top-20 opacity-0"}left-1/2 -translate-x-1/2 md:-translate-x-0 md:flex-row flex-col md:bg-transparent bg-slate-700 w-full md:w-auto md:py-0 py-10 text-white md:text-black opacity:0`}>
+            <ul className={`menu flex items-center gap-12 md:static absolute ${active ? "top-24 opacity-100" : "top-20 opacity-0"} left-1/2 -translate-x-1/2 md:-translate-x-0 md:flex-row flex-col md:bg-transparent bg-slate-700 w-full md:w-auto md:py-0 py-10 text-white md:text-black transition-all`}>
                 <li>
                     <Link href={"#home"}>Home</Link>
                 </li>
