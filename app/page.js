@@ -33,12 +33,12 @@ export default function Home() {
         </div>
         <div>
           <i className="ri-service-fill ri-3x text-slate-700"></i>
-          <p className="font-semibold text-2xl/normal mb-2">Memberikan Harga Terbaik</p>
+          <p className="font-semibold text-2xl/normal mb-2">Pemeriksaan Secara Berkala</p>
           <p className="text-base/loose">lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed velit augue. Nam ultrices pellentesque nulla sed fringilla. Etiam at pharetra sapien, at vulputate enim. </p>
         </div>
         <div>
           <i className="ri-star-s-fill ri-3x text-slate-700"></i>
-          <p className="font-semibold text-2xl/normal mb-2">Memberikan Harga Terbaik</p>
+          <p className="font-semibold text-2xl/normal mb-2">Fokus Website, Mobile & IoT</p>
           <p className="text-base/loose">lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed velit augue. Nam ultrices pellentesque nulla sed fringilla. Etiam at pharetra sapien, at vulputate enim. </p>
         </div>
       </div>
