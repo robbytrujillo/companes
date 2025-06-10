@@ -20,15 +20,17 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
+    <>
     <html lang="en">
       <body className={`${fontPoppins.className} antialiased`}>
        
-          <>
+          
             <Navbar />
             <div className="container mx-auto px-4">{children}</div>
-          </>
+         
         
       </body>
     </html>
+    </>
   );
 }
