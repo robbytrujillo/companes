@@ -4,6 +4,8 @@ import DataImage from '@/public/data';
 
 import HeroInfo from "@/components/HeroInfo";
 
+import Link from "next/link";
+
 export default function Home() {
   return (
     <>
@@ -41,6 +43,23 @@ export default function Home() {
         </div>
       </div>
       {/* Service End */}
+
+      {/* Project Start */}
+      <div className="container mx-auto px-4 w-full max-w-7xl mt-32">
+        <h1 className="text-4xl/normal text-center font-semibold">Project Kami</h1>
+        <p className="text-base/loose text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed velit augue</p>
+        <div>
+          <div className="mt-20">
+            <Image src={DataImage.Proyek1} alt="Project Image" />
+            <h1 className="mt-6 mb-3 text-2xl font-semibold">Project Pertama</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed velit augue.</p>
+            <div className="mt-6 mb-3">
+              <Link href={"#"} className="bg-slate-700 text-white text-center p-3 rounded-3xl hover:bg-slate-600 cursor-pointer">Lihat Website</Link>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Project End */}
     </>
     
   );
