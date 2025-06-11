@@ -11,7 +11,7 @@ export default function Home() {
     <>
       {/* Title Start */}
       <div className="py-20">
-        <h1 className="sm:text-6xl/tight text-5xl/tight sm:text-center text-left">
+        <h1 className="sm:text-6xl/tight text-5xl/tight font-bold sm:text-center text-left">
           Improve Your Lifestyle <br /> With Us
         </h1>
       </div>
