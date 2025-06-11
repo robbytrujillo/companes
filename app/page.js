@@ -11,7 +11,7 @@ export default function Home() {
     <>
       {/* Title Start */}
       <div className="py-20">
-        <h1 className="sm:text-6xl/tight text-5xl/tight font-bold sm:text-center text-left">
+        <h1 className="sm:text-6xl/tight text-5xl/tight font-bold sm:text-center text-center">
           Improve Your Lifestyle <br /> With Us
         </h1>
       </div>
@@ -26,17 +26,17 @@ export default function Home() {
 
       {/* Service Start */}
       <div className="container mx-auto px-4 w-full max-w-7xl grid lg:grid-cols-3 mt-32 gap-10 md:grid-cols-2 grid-cols-1" id="service">
-        <div className="shadow-2xl p-7 rounded-2xl">
+        <div className="shadow-2xl p-7 rounded-2xl text-center">
           <i className="ri-money-dollar-circle-fill ri-3x text-slate-700"></i>
           <p className="font-semibold text-2xl/normal mb-2">Providing the Best Price</p>
           <p className="text-base/loose">lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed velit augue. Nam ultrices pellentesque nulla sed fringilla. Etiam at pharetra sapien, at vulputate enim. </p>
         </div>
-        <div className="shadow-2xl p-7 rounded-2xl">
+        <div className="shadow-2xl p-7 rounded-2xl text-center">
           <i className="ri-service-fill ri-3x text-slate-700"></i>
           <p className="font-semibold text-2xl/normal mb-2">Periodic Inspection</p>
           <p className="text-base/loose">lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed velit augue. Nam ultrices pellentesque nulla sed fringilla. Etiam at pharetra sapien, at vulputate enim. </p>
         </div>
-        <div className="shadow-2xl p-7 rounded-2xl">
+        <div className="shadow-2xl p-7 rounded-2xl text-center">
           <i className="ri-star-s-fill ri-3x text-slate-700"></i>
           <p className="font-semibold text-2xl/normal mb-2">Focus on Website, Mobile & IoT</p>
           <p className="text-base/loose">lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed velit augue. Nam ultrices pellentesque nulla sed fringilla. Etiam at pharetra sapien, at vulputate enim. </p>
@@ -45,7 +45,7 @@ export default function Home() {
       {/* Service End */}
 
       {/* Project Start */}
-      <div className="container mx-auto px-4 w-full max-w-7xl mt-32" id="project">
+      <div className="container mx-auto px-4 w-full max-w-7xl mt-32 text-center" id="project">
         <h1 className="text-4xl/normal text-center font-semibold">Our Project</h1>
         <p className="text-base/loose text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed velit augue</p>
         
