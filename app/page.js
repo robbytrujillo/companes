@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       {/* Title Start */}
-      <motion.div className="py-20" initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }}>
+      <motion.div className="py-20" initial={{ opacity: 0, y: 50, scale: 0.8 }} animate={{ opacity: 1, y: 0, scale: 1 }}>
         <h1 className="sm:text-6xl/tight text-5xl/tight font-bold sm:text-center text-center">
           Improve Your Lifestyle <br /> With Us
         </h1>
@@ -21,7 +21,9 @@ export default function Home() {
 
       {/* Hero Image Start */}
       <div className="max-w-5xl mx-auto relative shadow-2xl rounded-2xl">
-        <Image src={DataImage.Hero1} alt="Hero Image" className="rounded-t-2xl" priority/>
+        <motion.div initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }}>
+          <Image src={DataImage.Hero1} alt="Hero Image" className="rounded-t-2xl" priority/>
+        </motion.div>
         <HeroInfo />
       </div>
       {/* Hero Image End */}
