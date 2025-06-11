@@ -54,7 +54,7 @@ export default function Home() {
         <motion.p initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once:true }} transition={{ delay: 0.2 }} className="text-base/loose text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed velit augue</motion.p>
         
         <div className="mt-20 grid lg:grid-cols-3 gap-10 md:grid-cols-2 grid-cols-1">
-          <motion.div initial={{ opacity: 0, y: 100 }} whileInView={{ opacity: 1, y: 0 }} className="shadow-2xl p-4 rounded-2xl">
+          <motion.div initial={{ opacity: 0, y: 100 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once:true }} className="shadow-2xl p-4 rounded-2xl">
             <Image src={DataImage.Proyek1} alt="Project Image" className="rounded-2xl" />
             <h1 className="mt-6 mb-3 text-2xl font-semibold">First Project</h1>
             <p className="text-base/loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed velit augue.</p>
@@ -62,7 +62,7 @@ export default function Home() {
               <Link href={"#"} className="bg-slate-700 text-white text-center p-3 rounded-3xl hover:bg-slate-600 cursor-pointer">Lihat Website</Link>
             </div>
           </motion.div>
-          <motion.div initial={{ opacity: 0, y: 100 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: 0.3 }} className="shadow-2xl p-4 rounded-2xl">
+          <motion.div initial={{ opacity: 0, y: 100 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: 0.3 }} viewport={{ once:true }} className="shadow-2xl p-4 rounded-2xl">
             <Image src={DataImage.Proyek2} alt="Project Image" className="rounded-2xl" />
             <h1 className="mt-6 mb-3 text-2xl font-semibold">Second Project</h1>
             <p className="text-base/loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed velit augue.</p>
@@ -70,7 +70,7 @@ export default function Home() {
               <Link href={"#"} className="bg-slate-700 text-white text-center p-3 rounded-3xl hover:bg-slate-600 cursor-pointer">Lihat Website</Link>
             </div>
           </motion.div>
-          <motion.div initial={{ opacity: 0, y: 100 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: 0.6 }} className="shadow-2xl p-4 rounded-2xl">
+          <motion.div initial={{ opacity: 0, y: 100 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: 0.6 }} viewport={{ once:true }} className="shadow-2xl p-4 rounded-2xl">
             <Image src={DataImage.Proyek3} alt="Project Image" className="rounded-2xl" />
             <h1 className="mt-6 mb-3 text-2xl font-semibold">Third Project</h1>
             <p className="text-base/loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed velit augue.</p>
@@ -78,7 +78,7 @@ export default function Home() {
               <Link href={"#"} className="bg-slate-700 text-white text-center p-3 rounded-3xl hover:bg-slate-600 cursor-pointer">Lihat Website</Link>
             </div>
           </motion.div>
-          <motion.div initial={{ opacity: 0, y: 100 }} whileInView={{ opacity: 1, y: 0 }} className="shadow-2xl p-4 rounded-2xl">
+          <motion.div initial={{ opacity: 0, y: 100 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once:true }} className="shadow-2xl p-4 rounded-2xl">
             <Image src={DataImage.Proyek4} alt="Project Image" className="rounded-2xl" />
             <h1 className="mt-6 mb-3 text-2xl font-semibold">Fourth Project</h1>
             <p className="text-base/loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed velit augue.</p>
@@ -86,7 +86,7 @@ export default function Home() {
               <Link href={"#"} className="bg-slate-700 text-white text-center p-3 rounded-3xl hover:bg-slate-600 cursor-pointer">Lihat Website</Link>
             </div>
           </motion.div>
-          <motion.div initial={{ opacity: 0, y: 100 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: 0.3 }} className="shadow-2xl p-4 rounded-2xl">
+          <motion.div initial={{ opacity: 0, y: 100 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: 0.3 }} viewport={{ once:true }} className="shadow-2xl p-4 rounded-2xl">
             <Image src={DataImage.Proyek5} alt="Project Image" className="rounded-2xl" />
             <h1 className="mt-6 mb-3 text-2xl font-semibold">Fifth Project</h1>
             <p className="text-base/loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed velit augue.</p>
