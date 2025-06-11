@@ -6,15 +6,17 @@ import HeroInfo from "@/components/HeroInfo";
 
 import Link from "next/link";
 
+import * as motion from "motion/react-client"
+
 export default function Home() {
   return (
     <>
       {/* Title Start */}
-      <div className="py-20">
+      <motion.div className="py-20" initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }}>
         <h1 className="sm:text-6xl/tight text-5xl/tight font-bold sm:text-center text-center">
           Improve Your Lifestyle <br /> With Us
         </h1>
-      </div>
+      </motion.div>
       {/* Title End */}
 
       {/* Hero Image Start */}
