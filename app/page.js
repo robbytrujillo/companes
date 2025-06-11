@@ -59,7 +59,7 @@ export default function Home() {
             <h1 className="mt-6 mb-3 text-2xl font-semibold">First Project</h1>
             <p className="text-base/loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed velit augue.</p>
             <div className="mt-6 mb-3">
-              <Link href={"#"} className="bg-slate-700 text-white text-center p-3 rounded-3xl hover:bg-slate-600 cursor-pointer">Lihat Website</Link>
+              <Link href={"#"} className="bg-slate-700 text-white text-center p-3 rounded-3xl hover:bg-slate-600 cursor-pointer">See Website</Link>
             </div>
           </motion.div>
           <motion.div initial={{ opacity: 0, y: 100 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: 0.3 }} viewport={{ once:true }} className="shadow-2xl p-4 rounded-2xl">
@@ -67,7 +67,7 @@ export default function Home() {
             <h1 className="mt-6 mb-3 text-2xl font-semibold">Second Project</h1>
             <p className="text-base/loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed velit augue.</p>
             <div className="mt-6 mb-3">
-              <Link href={"#"} className="bg-slate-700 text-white text-center p-3 rounded-3xl hover:bg-slate-600 cursor-pointer">Lihat Website</Link>
+              <Link href={"#"} className="bg-slate-700 text-white text-center p-3 rounded-3xl hover:bg-slate-600 cursor-pointer">See Website</Link>
             </div>
           </motion.div>
           <motion.div initial={{ opacity: 0, y: 100 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: 0.6 }} viewport={{ once:true }} className="shadow-2xl p-4 rounded-2xl">
@@ -75,7 +75,7 @@ export default function Home() {
             <h1 className="mt-6 mb-3 text-2xl font-semibold">Third Project</h1>
             <p className="text-base/loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed velit augue.</p>
             <div className="mt-6 mb-3">
-              <Link href={"#"} className="bg-slate-700 text-white text-center p-3 rounded-3xl hover:bg-slate-600 cursor-pointer">Lihat Website</Link>
+              <Link href={"#"} className="bg-slate-700 text-white text-center p-3 rounded-3xl hover:bg-slate-600 cursor-pointer">See Website</Link>
             </div>
           </motion.div>
           <motion.div initial={{ opacity: 0, y: 100 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once:true }} className="shadow-2xl p-4 rounded-2xl">
@@ -83,7 +83,7 @@ export default function Home() {
             <h1 className="mt-6 mb-3 text-2xl font-semibold">Fourth Project</h1>
             <p className="text-base/loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed velit augue.</p>
             <div className="mt-6 mb-3">
-              <Link href={"#"} className="bg-slate-700 text-white text-center p-3 rounded-3xl hover:bg-slate-600 cursor-pointer">Lihat Website</Link>
+              <Link href={"#"} className="bg-slate-700 text-white text-center p-3 rounded-3xl hover:bg-slate-600 cursor-pointer">See Website</Link>
             </div>
           </motion.div>
           <motion.div initial={{ opacity: 0, y: 100 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: 0.3 }} viewport={{ once:true }} className="shadow-2xl p-4 rounded-2xl">
@@ -91,7 +91,7 @@ export default function Home() {
             <h1 className="mt-6 mb-3 text-2xl font-semibold">Fifth Project</h1>
             <p className="text-base/loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed velit augue.</p>
             <div className="mt-6 mb-3">
-              <Link href={"#"} className="bg-slate-700 text-white text-center p-3 rounded-3xl hover:bg-slate-600 cursor-pointer">Lihat Website</Link>
+              <Link href={"#"} className="bg-slate-700 text-white text-center p-3 rounded-3xl hover:bg-slate-600 cursor-pointer">See Website</Link>
             </div>
           </motion.div>
         </div>
