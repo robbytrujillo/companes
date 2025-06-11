@@ -9,6 +9,7 @@ import 'remixicon/fonts/remixicon.css'
 const fontPoppins = Poppins({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
+  variable: '--font-poppins',
 });
 
 export const metadata = {
@@ -21,9 +22,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <>
+    
     <html lang="en">
-      <body className={`${fontPoppins.className} antialiased`}>
+      <body className={`${fontPoppins.variable} antialiased`} id="home">
        
           
             <Navbar />
@@ -32,6 +33,6 @@ export default function RootLayout({ children }) {
         
       </body>
     </html>
-    </>
+    
   );
 }

@@ -25,7 +25,7 @@ export default function Home() {
       {/* Hero Image End */}
 
       {/* Service Start */}
-      <div className="container mx-auto px-4 w-full max-w-7xl grid lg:grid-cols-3 mt-32 gap-10 md:grid-cols-2 grid-cols-1">
+      <div className="container mx-auto px-4 w-full max-w-7xl grid lg:grid-cols-3 mt-32 gap-10 md:grid-cols-2 grid-cols-1" id="service">
         <div className="shadow-2xl p-7 rounded-2xl">
           <i className="ri-money-dollar-circle-fill ri-3x text-slate-700"></i>
           <p className="font-semibold text-2xl/normal mb-2">Providing the Best Price</p>
@@ -45,7 +45,7 @@ export default function Home() {
       {/* Service End */}
 
       {/* Project Start */}
-      <div className="container mx-auto px-4 w-full max-w-7xl mt-32">
+      <div className="container mx-auto px-4 w-full max-w-7xl mt-32" id="project">
         <h1 className="text-4xl/normal text-center font-semibold">Our Project</h1>
         <p className="text-base/loose text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed velit augue</p>
         
@@ -95,12 +95,12 @@ export default function Home() {
       {/* Project End */}
 
       {/* Contact Start */}
-      <div className="container mx-auto px-4 w-full max-w-7xl mt-32 flex items-center justify-between md:flex-row flex-col md:gap-0 gap-4">
+      <div className="container mx-auto px-4 w-full max-w-7xl mt-32 flex items-center justify-between md:flex-row flex-col md:gap-0 gap-4" id="contact">
         <h2 className="text-3xl font-bold">Companes.</h2>
         <div className="flex gap-10">
-          <Link href={"#"}>Home</Link>
-          <Link href={"#"}>Service</Link>
-          <Link href={"#"}>Project</Link>
+          <Link href={"#home"}>Home</Link>
+          <Link href={"#service"}>Service</Link>
+          <Link href={"#project"}>Project</Link>
         </div>
         <div className="flex gap-4">
           <Link href={"#"}>
